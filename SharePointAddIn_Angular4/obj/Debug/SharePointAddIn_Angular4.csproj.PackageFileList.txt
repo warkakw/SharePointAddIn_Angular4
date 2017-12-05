@@ -1,0 +1,1 @@
+bin\Debug\SharePointAddIn_Angular4.wsp

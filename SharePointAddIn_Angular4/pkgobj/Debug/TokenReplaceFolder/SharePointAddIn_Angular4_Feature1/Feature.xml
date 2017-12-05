@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint Add-in Feature" Id="54d85f3f-af21-4c6d-b30a-8d578b0ff2c2" Scope="Web" Title="SharePointAddIn_Angular4 Feature1" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\App.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.min.map" />
+    <ElementFile Location="Scripts\jquery-1.9.1.min.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.js" />
+    <ElementFile Location="Scripts\jquery-1.9.1.intellisense.js" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementManifest Location="AngularApp\Elements.xml" />
+    <ElementFile Location="AngularApp\Sample.txt" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\dist\favicon.ico" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\dist\index.html" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\dist\inline.bundle.js" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\dist\inline.bundle.js.map" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\dist\main.bundle.js" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\dist\main.bundle.js.map" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\dist\polyfills.bundle.js" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\dist\polyfills.bundle.js.map" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\dist\styles.bundle.js" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\dist\styles.bundle.js.map" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\dist\vendor.bundle.js" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\dist\vendor.bundle.js.map" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\e2e\app.e2e-spec.ts" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\e2e\app.po.ts" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\e2e\tsconfig.e2e.json" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\favicon.ico" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\index.html" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\main.ts" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\polyfills.ts" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\styles.css" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\test.ts" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\tsconfig.app.json" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\tsconfig.spec.json" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\typings.d.ts" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\app\app.component.css" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\app\app.component.html" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\app\app.component.spec.ts" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\app\app.component.ts" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\app\app.module.ts" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\assets\.gitkeep" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\environments\environment.prod.ts" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\src\environments\environment.ts" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\.angular-cli.json" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\.editorconfig" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\.gitignore" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\karma.conf.js" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\package.json" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\protractor.conf.js" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\README.md" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\tsconfig.json" />
+    <ElementFile Location="AngularApp\SharePoint-Angular4\tslint.json" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="AngularApp\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

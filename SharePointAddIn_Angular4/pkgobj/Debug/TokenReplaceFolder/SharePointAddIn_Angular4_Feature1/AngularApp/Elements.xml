@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="AngularApp">
+
+    <File Path="AngularApp\SharePoint-Angular4\dist\favicon.ico" Url="AngularApp/SharePoint-Angular4/dist/favicon.ico" ReplaceContent="TRUE" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\index.html" Url="AngularApp/SharePoint-Angular4/dist/index.html" ReplaceContent="TRUE" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\inline.bundle.js" Url="AngularApp/SharePoint-Angular4/dist/inline.bundle.js" ReplaceContent="TRUE" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\inline.bundle.js.map" Url="AngularApp/SharePoint-Angular4/dist/inline.bundle.js.map" ReplaceContent="TRUE" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\main.bundle.js" Url="AngularApp/SharePoint-Angular4/dist/main.bundle.js" ReplaceContent="TRUE" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\main.bundle.js.map" Url="AngularApp/SharePoint-Angular4/dist/main.bundle.js.map" ReplaceContent="TRUE" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\polyfills.bundle.js" Url="AngularApp/SharePoint-Angular4/dist/polyfills.bundle.js" ReplaceContent="TRUE" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\polyfills.bundle.js.map" Url="AngularApp/SharePoint-Angular4/dist/polyfills.bundle.js.map" ReplaceContent="TRUE" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\styles.bundle.js" Url="AngularApp/SharePoint-Angular4/dist/styles.bundle.js" ReplaceContent="TRUE" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\styles.bundle.js.map" Url="AngularApp/SharePoint-Angular4/dist/styles.bundle.js.map" ReplaceContent="TRUE" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\vendor.bundle.js" Url="AngularApp/SharePoint-Angular4/dist/vendor.bundle.js" ReplaceContent="TRUE" />
+    <File Path="AngularApp\SharePoint-Angular4\dist\vendor.bundle.js.map" Url="AngularApp/SharePoint-Angular4/dist/vendor.bundle.js.map" ReplaceContent="TRUE" />
+   
+  </Module>
+</Elements>

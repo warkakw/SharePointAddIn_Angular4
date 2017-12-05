@@ -1,0 +1,4 @@
+c:\users\kamwar\documents\visual studio 2015\Projects\SharePointAddIn_Angular4\SharePointAddIn_Angular4\bin\Debug\SharePointAddIn_Angular4.pdb
+c:\users\kamwar\documents\visual studio 2015\Projects\SharePointAddIn_Angular4\SharePointAddIn_Angular4\obj\Debug\SharePointAddIn_Angular4.dll
+c:\users\kamwar\documents\visual studio 2015\Projects\SharePointAddIn_Angular4\SharePointAddIn_Angular4\obj\Debug\SharePointAddIn_Angular4.pdb
+C:\Users\kamwar\Documents\Visual Studio 2015\Projects\SharePointAddIn_Angular4\SharePointAddIn_Angular4\obj\Debug\SharePointAddIn_Angular4.csprojResolveAssemblyReference.cache

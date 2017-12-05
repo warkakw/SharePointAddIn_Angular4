@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7D31C09-73E7-423D-B608-E58D872D0CD6}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SharePointAddIn_Angular4</RootNamespace>
+    <AssemblyName>SharePointAddIn_Angular4</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>14.6</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{0008204f-6c2e-47cf-8c1e-3cd1592483d0}</AppFeaturePartId>
+    <WspPartId>{5f993910-dc69-4ef4-8515-dd977b09fce8}</WspPartId>
+    <WorkflowPartId>{be9d53bb-4486-4668-83e9-16f16ea0cb23}</WorkflowPartId>
+    <CspkgPartId>{a8116e5e-5507-4751-a6c0-7f936a2ff180}</CspkgPartId>
+    <SqlPackagePartId>{2df355fd-b151-4024-8dad-8eeb6aa5c664}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="AngularApp\SharePoint-Angular4\.angular-cli.json" />
+    <None Include="AngularApp\SharePoint-Angular4\.editorconfig" />
+    <None Include="AngularApp\SharePoint-Angular4\dist\inline.bundle.js.map" />
+    <None Include="AngularApp\SharePoint-Angular4\dist\main.bundle.js.map" />
+    <None Include="AngularApp\SharePoint-Angular4\dist\polyfills.bundle.js.map" />
+    <None Include="AngularApp\SharePoint-Angular4\dist\styles.bundle.js.map" />
+    <None Include="AngularApp\SharePoint-Angular4\dist\vendor.bundle.js.map" />
+    <None Include="AngularApp\SharePoint-Angular4\e2e\tsconfig.e2e.json" />
+    <None Include="AngularApp\SharePoint-Angular4\package.json" />
+    <None Include="AngularApp\SharePoint-Angular4\README.md" />
+    <None Include="AngularApp\SharePoint-Angular4\src\assets\.gitkeep" />
+    <None Include="AngularApp\SharePoint-Angular4\src\tsconfig.app.json" />
+    <None Include="AngularApp\SharePoint-Angular4\src\tsconfig.spec.json" />
+    <None Include="AngularApp\SharePoint-Angular4\tsconfig.json" />
+    <None Include="AngularApp\SharePoint-Angular4\tslint.json" />
+    <None Include="AngularApp\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{951dff94-8c04-4510-8bff-11d79da5986a}</SharePointProjectItemId>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fd57dc9f-2c20-4487-a7b3-5add6a447af1}</SharePointProjectItemId>
+    </None>
+    <Content Include="AngularApp\Elements.xml" />
+    <Content Include="AngularApp\Sample.txt" />
+    <Content Include="AngularApp\SharePoint-Angular4\.gitignore" />
+    <Content Include="AngularApp\SharePoint-Angular4\dist\favicon.ico" />
+    <Content Include="AngularApp\SharePoint-Angular4\dist\index.html" />
+    <Content Include="AngularApp\SharePoint-Angular4\dist\inline.bundle.js" />
+    <Content Include="AngularApp\SharePoint-Angular4\dist\main.bundle.js" />
+    <Content Include="AngularApp\SharePoint-Angular4\dist\polyfills.bundle.js" />
+    <Content Include="AngularApp\SharePoint-Angular4\dist\styles.bundle.js" />
+    <Content Include="AngularApp\SharePoint-Angular4\dist\vendor.bundle.js" />
+    <Content Include="AngularApp\SharePoint-Angular4\karma.conf.js" />
+    <Content Include="AngularApp\SharePoint-Angular4\protractor.conf.js" />
+    <Content Include="AngularApp\SharePoint-Angular4\src\app\app.component.css" />
+    <Content Include="AngularApp\SharePoint-Angular4\src\app\app.component.html" />
+    <Content Include="AngularApp\SharePoint-Angular4\src\favicon.ico" />
+    <Content Include="AngularApp\SharePoint-Angular4\src\index.html" />
+    <Content Include="AngularApp\SharePoint-Angular4\src\styles.css" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2df355fd-b151-4024-8dad-8eeb6aa5c664}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{689c61c7-dce8-4ead-9f15-5697e7124bc2}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ebe4acbd-7aa4-4096-9b47-6603de459578}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{7e697a25-5e99-4a76-ab92-fee9f163bbd8}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{54d85f3f-af21-4c6d-b30a-8d578b0ff2c2}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\e2e\app.e2e-spec.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\e2e\app.po.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\app\app.component.spec.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\app\app.component.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\app\app.module.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\environments\environment.prod.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\environments\environment.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\main.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\polyfills.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\test.ts" />
+    <TypeScriptCompile Include="AngularApp\SharePoint-Angular4\src\typings.d.ts" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>
